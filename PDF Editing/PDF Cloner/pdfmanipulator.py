@@ -1,4 +1,3 @@
-from itertools import count
 import PyPDF2
 #Enter The PDF Name
 print("Type the Name of The pdf file to Make a copy from")

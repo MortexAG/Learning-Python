@@ -5,7 +5,6 @@ print("Please Make Sure there's only one word file in the folder wordfile")
 input("Press Enter To Continue")
 import glob
 word_list = []
-os.mkdir("/wordfile")
 for filename in glob.glob('wordfile/*.docx'): #assuming docx
     wordfile = (filename)
     pdfname = "wordfile/" + filename + ".pdf"

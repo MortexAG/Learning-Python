@@ -1,5 +1,4 @@
 import docx2pdf
-import os
 from docx2pdf import convert
 print("Please Make Sure there's only one word file in the folder wordfile")
 input("Press Enter To Continue")

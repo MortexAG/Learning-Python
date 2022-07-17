@@ -11,6 +11,5 @@ for filename in glob.glob('wordfile/*.docx'): #assuming docx
     print(pdfname)
     pdf_pre = filename.replace('.docx','')
     pdffile = (pdf_pre + ".pdf")
-#pdffile = ("wordfile/result.pdf")
 convert(wordfile, pdffile)
 convert("my_docx_folder/")

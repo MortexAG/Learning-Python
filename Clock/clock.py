@@ -1,5 +1,6 @@
 import datetime
 from datetime import datetime
+import sys
 
 def clock():
   while(True):
@@ -7,9 +8,12 @@ def clock():
       now = datetime.today()
       day = datetime.today()
       weekday = day.strftime("%A")
-      thisday = day.strftime("%D/%M/%Y")
+      thisday = day.strftime("%d/%m/%Y")
       timenow = now.strftime("%H:%M:%S")
-      print("Today Is:", weekday, thisday)
-      print("The Time Now is:", timenow, end=("\r"))
+      print("Today is:", weekday, thisday
+      ,"The Time Now is:", timenow, end="\r")
       time.sleep(1)
+      
+      
+      
 clock()

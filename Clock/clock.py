@@ -6,7 +6,7 @@ def clock():
       import time
       now = datetime.today()
       day = datetime.today()
-      weekday = dat.strftime("%A")
+      weekday = day.strftime("%A")
       thisday = day.strftime("%D/%M/%Y")
       timenow = now.strftime("%H:%M:%S")
       print("Today Is:", weekday, thisday)

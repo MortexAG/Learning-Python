@@ -6,6 +6,6 @@ def clock():
       import time
       now = datetime.today()
       timenow = now.strftime("%H:%M:%S")
-      print(timenow, end=("\r")
+      print(timenow, end=("\r"))
       time.sleep(1)
- clock()
+clock()

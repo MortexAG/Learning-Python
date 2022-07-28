@@ -10,8 +10,8 @@ def clock():
       weekday = day.strftime("%A")
       thisday = day.strftime("%d/%m/%Y")
       timenow = now.strftime("%H:%M:%S")
-      print("Today is:", weekday, thisday
-      ,"The Time Now is:", timenow, end="\r")
+      print("The Time Now is:", timenow,",","",
+      "Today is:", weekday, thisday, end="\r")
       time.sleep(1)
       
       
